@@ -60,7 +60,7 @@ myHamburger.addTopping(toppings.cheese);
 myHamburger.addTopping(toppings.salad);
 myHamburger.addAddon(addons.seasoning);
 
-console.log(`Hamburger of your choise, cost: ${myHamburger.calculateCost()}`);
+console.log(`Hamburger of your choise, cost is ₮: ${myHamburger.calculateCost()}`);
 console.log(`Hamburger of your choice, calories: ${myHamburger.calculateCalories()}`);
 
 
