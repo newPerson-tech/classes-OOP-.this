@@ -58,10 +58,10 @@ const myHamburger = new Hamburger(hamburgers_sizes.small);
 
 myHamburger.addTopping(toppings.cheese);
 myHamburger.addTopping(toppings.salad);
-myHamburger.addAddon(addons.mayyonaise);
+myHamburger.addAddon(addons.seasoning);
 
 console.log(`Hamburger of your choise, cost: ${myHamburger.calculateCost()}`);
-console.log(`Hamburger of your choice, calories: ${myHamburger.calculateCalories}`);
+console.log(`Hamburger of your choice, calories: ${myHamburger.calculateCalories()}`);
 
 
 
